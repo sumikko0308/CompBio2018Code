@@ -1,4 +1,4 @@
-6-2.c
+
 #include<stdio.h>
 
 int main(void){
@@ -9,12 +9,12 @@ int main(void){
 
 	char name1[100],name2[100];
 	int no;
-	double vale;
+	double value;
 
-	fp=fopen("6-1.csv", "r");
+	fp=fopen("6-2.csv", "r");
 
 	fscanf(fp, "%[^,], %s", name1,name2);
-	prntf("%s, %s\n", name1,name2);
+	printf("%s, %s\n", name1,name2);
 
 	while((ret=fscanf(fp,"%d, %lf", &no, &value))!=EOF){
 		printf("%d, %f\n", no, value);

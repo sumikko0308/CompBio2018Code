@@ -1,4 +1,4 @@
-6-1.c
+
 #include<stdio.h>
 
 void myprint(int i);
